@@ -1,6 +1,5 @@
 /* eslint-disable quotes */
 module.exports = {
-  pathPrefix: "/space-apps-kushimoto.github.io",
   siteMetadata: {
     title: `My website`,
     googleVerification: `abcdefz`,
