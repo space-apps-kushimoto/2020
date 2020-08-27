@@ -25,4 +25,11 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm install -g gatsby-cli
-    - run: npm install && npm run deploy
+    - run: npm install
+    - run: npm run deploy
+      
+    - name: deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public
