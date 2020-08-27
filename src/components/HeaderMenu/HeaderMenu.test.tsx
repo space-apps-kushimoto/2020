@@ -8,10 +8,9 @@ const Adapter: any = require("enzyme-adapter-react-16");
 configure({ adapter: new Adapter() });
 
 const items = [
-  { name: "ホーム", path: "/", exact: true, icon: "home", inverted: true },
-  { name: "お知らせ", path: "/blog/", exact: false, icon: "newspaper" },
-  { name: "開催概要", path: "/schedule/", exact: true, icon: "info circle" },
-  { name: "行動規範", path: "/code-of-conduct/", exact: true, icon: "info circle"},
+  { name: "Home", path: "/", exact: true },
+  { name: "About", path: "/about/", exact: true },
+  { name: "Blog", path: "/blog/", exact: false },
 ];
 
 const LinkStub = (props: any) => <div {...props} />;
@@ -36,8 +35,7 @@ describe("HeaderMenu component", () => {
         Link={LinkStub}
         items={items}
         pathname="/about/"
-        dispatch={dispatchStub}
-      />,
+        dispatch={dispatchStub} />,
     );
     expect(wrapper.find({ name: "About" }).prop("active")).toBeTruthy();
   });
@@ -74,10 +72,10 @@ describe("HeaderMenu component", () => {
         Link={LinkStub}
         items={items}
         pathname=""
-        dispatch={dispatchMock}
-      />,
+        dispatch={dispatchMock} />,
     );
     wrapper.find(".mobile.only").simulate("click");
     expect(dispatchMock.mock.calls.length).toBe(1);
   });
+
 });

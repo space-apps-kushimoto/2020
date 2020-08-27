@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Link } from "gatsby";
 import { get } from "lodash";
-import { Header, Container, Segment, Label, Grid, Card, Image, Item, Comment } from "semantic-ui-react";
+import { Header, Container, Segment, Icon, Label, Button, Grid, Card, Image, Item, Comment } from "semantic-ui-react";
 import { MarkdownRemark, ImageSharp, MarkdownRemarkConnection, Site } from "../graphql-types";
 import BlogTitle from "../components/BlogTitle";
 import { DiscussionEmbed } from "disqus-react";
