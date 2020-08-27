@@ -15,7 +15,7 @@ export const HeaderMenu = ({
   pathname,
   Link,
   inverted,
-  dispatch
+  dispatch,
 }: HeaderMenuProps) => (
   <Container>
     <Menu size="large" pointing secondary inverted={inverted}>

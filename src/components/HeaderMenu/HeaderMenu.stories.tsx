@@ -9,7 +9,7 @@ import { resolve } from "path";
 const items = [
   { name: "Home", path: "/", exact: true },
   { name: "About", path: "/about/", exact: true },
-  { name: "Blog", path: "/blog/", exact: false }
+  { name: "Blog", path: "/blog/", exact: false },
 ];
 
 const LinkStub = (props: any) => (
@@ -25,7 +25,7 @@ const dispatchStub: Dispatch = (a: any) => {
 storiesOf("HeaderMenu", module)
   .addDecorator(withKnobs)
   .addParameters({
-    fileName: resolve(__dirname, "README.md")
+    fileName: resolve(__dirname, "README.md"),
   })
   .add("default", () => {
     const pathname = text("pathname", "/");

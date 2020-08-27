@@ -8,7 +8,7 @@ import {
   Container,
   Grid,
   Header,
-  Icon
+  Icon,
 } from "semantic-ui-react";
 
 const IndexPage = (props: LayoutProps) => (
