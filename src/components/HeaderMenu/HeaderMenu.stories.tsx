@@ -12,15 +12,9 @@ const items = [
   { name: "Blog", path: "/blog/", exact: false },
 ];
 
-const LinkStub = (props: any) => (
-  <div {...props} onClick={action(props.to.toString())}>
-    {props.children}
-  </div>
-);
-const dispatchStub: Dispatch = (a: any) => {
-  action(a.type)(a);
-  return a;
-};
+const LinkStub = (props: any) =>
+  <div {...props} onClick={action(props.to.toString())} >{props.children}</div>;
+const dispatchStub: Dispatch = (a: any) => { action(a.type)(a); return a; };
 
 storiesOf("HeaderMenu", module)
   .addDecorator(withKnobs)
@@ -32,12 +26,6 @@ storiesOf("HeaderMenu", module)
     const inverted = boolean("inverted", false);
 
     return (
-      <HeaderMenu
-        Link={LinkStub}
-        items={items}
-        pathname={pathname}
-        inverted={inverted}
-        dispatch={dispatchStub}
-      />
+      <HeaderMenu Link={LinkStub} items={items} pathname={pathname} inverted={inverted} dispatch={dispatchStub} />
     );
   });
