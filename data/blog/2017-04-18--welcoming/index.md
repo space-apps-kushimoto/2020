@@ -1,11 +1,10 @@
 ---
 title: NASA International Space Apps Challenge in kushimoto 開催
-createdDate: '2017-04-18'
-updatedDate: '2017-05-06'
+createdDate: '2020-09-03'
+updatedDate: '2020-09-03'
 author: Naoki Ohashi
 tags:
-  - starter
-  - gatsby
+  - お知らせ
 image: slider-bg.jpg
 draft: false
 ---

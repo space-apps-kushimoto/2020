@@ -7,7 +7,7 @@ const CodeOfConductPage = () => {
     <Container>
       <Segment vertical>
         <Header as="h2">
-          <Icon name="info circle" />
+          <Icon name="bullhorn" />
           <Header.Content>Code Of Conduct</Header.Content>
         </Header>
       </Segment>

@@ -49,7 +49,7 @@ https://space-apps-kushimoto.github.io/
 
 #### 画像
 
-`static/` フォルダ内に画像をアップロード。`<img src="./your-image.png">` で表示。
+`static/` フォルダ内に画像をアップロード。`<img src="/your-image.png">` で表示。
 
 ## 参考
 

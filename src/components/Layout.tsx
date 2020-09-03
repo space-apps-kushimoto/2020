@@ -2,7 +2,7 @@ import { Link } from "gatsby";
 import * as React from "react";
 import HeaderMenu from "./HeaderMenu/HeaderMenu";
 import SidebarMenu from "./SidebarMenu/SidebarMenu";
-import { Segment, Icon, Container, Sidebar } from "semantic-ui-react";
+import { Header, Container, Segment, Icon, Sidebar } from "semantic-ui-react";
 import "../css/styles.css";
 import "../css/responsive.css";
 import "../css/semantic.min.css";
@@ -15,7 +15,7 @@ export const menuItems = [
   { name: "ホーム", path: "/", exact: true, icon: "home", inverted: true },
   { name: "お知らせ", path: "/blog/", exact: false, icon: "newspaper" },
   { name: "開催概要", path: "/schedule/", exact: true, icon: "info circle" },
-  { name: "行動規範", path: "/code-of-conduct/", exact: true, icon: "info circle"},
+  { name: "行動規範", path: "/code-of-conduct/", exact: true, icon: "bullhorn"},
 ];
 
 export interface LayoutProps {
@@ -46,8 +46,7 @@ const Layout = (props: LayoutProps) => {
           )}
 
           {/* Render children pages */}
-          <div style={{ paddingBottom: 60 }}>{props.children}</div>
-
+          <div style={{ paddingBottom: 150 }}>{props.children}</div>
           {/* Footer */}
           <Segment
             inverted
@@ -55,6 +54,10 @@ const Layout = (props: LayoutProps) => {
             style={{ position: "absolute", bottom: 0, width: "100%" }}
           >
             <Container textAlign="center">
+              <p>主催</p>
+              <p>NASA / Space Apps Challenge Kushimoto 実行委員会</p>
+              <p>後援</p>
+              <p>和歌山県 / 串本町</p>
               <p>Copyright &copy; Space Apps Challenge Kushimoto 実行委員会</p>
             </Container>
           </Segment>

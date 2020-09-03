@@ -29,7 +29,7 @@ const IndexPage = (props: LayoutProps) => (
         <Header inverted as="h2">
           2020年10月2日(金) - 10月4日(日) @ オンライン開催
         </Header>
-        <Button primary size="huge">
+        <Button primary size="huge" className={"register-btn"}>
           実行委員 & 参加者募集中！
         </Button>
       </Container>
@@ -73,7 +73,7 @@ const IndexPage = (props: LayoutProps) => (
         <Grid.Row>
           <Grid.Column>
             <Header icon>
-              <Icon name="wizard"></Icon>串本について
+              <Icon name="ship"></Icon>串本について
             </Header>
             <p>本州最南端の町、和歌山県串本町は、黒潮の恩恵をうけた美しい海と世界遺産熊野古道に囲まれたとても美しい町です。</p>
             <p>そんな串本町に、日本ではじめての民間ロケット発射場が2021年打ち上げにむけて建設されることが発表されました。</p>
@@ -94,7 +94,7 @@ const IndexPage = (props: LayoutProps) => (
         <Grid.Row>
           <Grid.Column>
             <Header icon>
-              <Icon name="wizard"></Icon>ボランティア募集中
+              <Icon name="users"></Icon>ボランティア募集中
             </Header>
             <p>Space Apps Challenge Kushimoto は、ボランティアによって運営されています。宇宙や IT に興味があって串本が大好きな人たちのボランティアを募集しています。</p>
           </Grid.Column>
