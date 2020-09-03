@@ -8,7 +8,7 @@ import {
   Container,
   Grid,
   Header,
-  Icon,
+  Icon
 } from "semantic-ui-react";
 
 const IndexPage = (props: LayoutProps) => (
@@ -24,13 +24,13 @@ const IndexPage = (props: LayoutProps) => (
       <Container text>
         <img src={"/logo.svg"} id="first-view-logo" className="animated fadeInUp" alt="NASA SPACE APPS CHALLENGE KUSHIMOTO"/>
         <Header inverted as="h2">
-          NASA 主催の世界同時ハッカソン
+          NASA 主催の世界同時ハッカソン！
         </Header>
         <Header inverted as="h2">
           2020年10月2日(金) - 10月4日(日) @ オンライン開催
         </Header>
         <Button primary size="huge">
-          実行委員 & 参加者募集中
+          実行委員 & 参加者募集中！
         </Button>
       </Container>
     </Segment>
