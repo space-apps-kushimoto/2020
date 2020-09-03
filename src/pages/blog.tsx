@@ -31,20 +31,12 @@ const BlogPage = (props: BlogProps) => {
     <Container>
       {posts.map(({ node }: {node: MarkdownRemark}) => {
         const { frontmatter, timeToRead, fields: { slug }, excerpt } = node;
-        const avatar = frontmatter.author.avatar.children[0] as ImageSharp;
         const cover = get(frontmatter, "image.children.0.fixed", {});
 
         const extra = (
           <Comment.Group>
             <Comment>
-              <Comment.Avatar
-                src={avatar.fixed.src}
-                srcSet={avatar.fixed.srcSet}
-              />
               <Comment.Content>
-                <Comment.Author style={{ fontWeight: 400 }}>
-                  {frontmatter.author.id}
-                </Comment.Author>
                 <Comment.Metadata style={{ margin: 0 }}>
                   {frontmatter.updatedDate} - {timeToRead} min read
               </Comment.Metadata>

@@ -55,9 +55,7 @@ const Layout = (props: LayoutProps) => {
             style={{ position: "absolute", bottom: 0, width: "100%" }}
           >
             <Container textAlign="center">
-              <p>
-                Powered with <Icon name="heart" /> by Gatsby 2.0
-              </p>
+              <p>Copyright &copy; Space Apps Challenge Kushimoto 実行委員会</p>
             </Container>
           </Segment>
         </Sidebar.Pusher>
