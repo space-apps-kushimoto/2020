@@ -1,7 +1,7 @@
 /* eslint-disable quotes */
 module.exports = {
   siteMetadata: {
-    title: `My website`,
+    title: `NASA International Space Apps Challenge in Kushimoto`,
     googleVerification: `abcdefz`,
     disqus: `gatsby-typescript`
   },
