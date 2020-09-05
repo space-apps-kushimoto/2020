@@ -4,32 +4,17 @@
 
 https://space-apps-kushimoto.github.io/
 
-## ブログの書き方
-
-1. GitHub 上でこのリポジトリをフォーク。
-
-2. フォークしたリポジトリ上で、`/_posts/`ディレクトリに移動。
-
-   - 例：`https://github.com/[your-name]/space-apps-kushimoto.github.io/tree/master/_posts`
-
-3. [Create New File] をクリック！
-
-   - <img width="500" alt="スクリーンショット 2019-07-30 13 36 34" src="https://user-images.githubusercontent.com/8760841/62172910-f59d1e00-b36e-11e9-96c5-5281461ccf9f.png">
-
-4. 記事を書く。
-
-5. プルリクエストを送る。
-
-### 投稿形式
-
-- ファイル名を`YYYY-MM-DD-name-of-post.md`の形式で保存。
-- 最初の行に下の形式でメタデータを追加。
-  - https://github.com/ndrewtl/airspace-jekyll/blame/master/_posts/2016-05-20-welcome-to-jekyll.md#L1-L7
-- マークダウン形式で記述。
 
 ## 開発者向け
 
 ## 始め方
+
+```
+$ npm install
+$ npm start
+```
+
+or 
 
 <a href="https://tella.video/how-to-send-pr" target="_blank" rel="noopener noreferrer"><img width="330" alt="スクリーンショット 2020-08-31 1 28 49" src="https://user-images.githubusercontent.com/8760841/91664318-575b2900-eb29-11ea-9455-221af5721406.png"></a>
 
