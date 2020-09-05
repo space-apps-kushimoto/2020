@@ -38,5 +38,5 @@ or
 
 ## 参考
 
-https://github.com/fabien0102/gatsby-starter
+https://github.com/fabien0102/gatsby-starter  
 https://react.semantic-ui.com/

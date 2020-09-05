@@ -4,44 +4,6 @@
 /*---------------------------------------------
 					Index Start
 -----------------------------------------------*/
-/*--
-	Slider Start
---*/
-/* #slider::before
-{
-  content:"";
-  display:block;
-  position:fixed;
-  top:0;
-  left:0;
-  z-index:-1;
-  width:100%;
-  height:100vh;
-  background: url("/slider-bg.jpg") no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-#slider {
-  padding: 125px 0 280px 0;
-  position: relative;
-}
-#slider .block {
-  color: #E3E3E4;
-  text-shadow: 0 0 4px #000000;
-}
-#slider .block h1 {
-  font-weight: 900;
-  font-size: 48px;
-  line-height: 1.25em;
-}
-#slider .block p {
-  font-size: 32px;
-  line-height: 1.25em;
-  font-weight: 900;
-} */
-/* .ui.inverted.segment, .ui.primary.inverted.segment {
-  background: rgba(27, 28, 29, .5);
-} */
 #slider .ui.text.container {
   margin-top: 100px;
   margin-bottom: 150px;
@@ -81,4 +43,9 @@
 
 #feature .row{
   background: rgba(255,255,255,0.6);
+}
+
+table.timetable td, table.timetable th{
+  padding: 10px;
+  border: 1px solid rgba(34,36,38,.5);
 }

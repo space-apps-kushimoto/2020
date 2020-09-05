@@ -46,7 +46,7 @@ const Layout = (props: LayoutProps) => {
           )}
 
           {/* Render children pages */}
-          <div style={{ paddingBottom: 150 }}>{props.children}</div>
+          <div style={{ paddingBottom: 250 }}>{props.children}</div>
           {/* Footer */}
           <Segment
             inverted

@@ -36,7 +36,6 @@ const SchedulePage = () => {
         </Header>
         <Segment vertical>
           <Header as="h3">
-          <Icon name="info circle" />
           <Header.Content>10月3日(土) </Header.Content>
           </Header>
           <table className="timetable">
@@ -76,7 +75,6 @@ const SchedulePage = () => {
         </Segment>
         <Segment vertical>
           <Header as="h3">
-          <Icon name="info circle" />
           <Header.Content>10月4日（日）</Header.Content>
           </Header>
           <table className="timetable">
@@ -113,8 +111,9 @@ const SchedulePage = () => {
               </tr>
             </tbody>
           </table>
+          <br/>
+          <p>スケジュールは変更になる可能性があります</p>
         </Segment>
-        <p>スケジュールは変更になる可能性があります</p>
       </Segment>
       <Segment vertical>
         <Header as="h3">

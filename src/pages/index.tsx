@@ -97,6 +97,8 @@ const IndexPage = (props: LayoutProps) => (
               <Icon name="users"></Icon>ボランティア募集中
             </Header>
             <p>Space Apps Challenge Kushimoto は、ボランティアによって運営されています。宇宙や IT に興味があって串本が大好きな人たちのボランティアを募集しています。</p>
+            <p>ご連絡はこちらから</p>
+            <p><a href="mailto:spaceappskushimoto@gmail.com"><Icon name="mail"></Icon>spaceappskushimoto@gmail.com</a></p>
           </Grid.Column>
         </Grid.Row>
       </Grid>
