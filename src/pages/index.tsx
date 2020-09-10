@@ -29,9 +29,7 @@ const IndexPage = (props: LayoutProps) => (
         <Header inverted as="h2">
           2020年10月2日(金) - 10月4日(日) @ オンライン開催
         </Header>
-        <Button primary size="huge" className={"register-btn"}>
-          実行委員 & 参加者募集中！
-        </Button>
+        <a href={"/schedule/#registration"} className={"primary huge register-btn"}>参加者募集中！</a>
       </Container>
     </Segment>
 

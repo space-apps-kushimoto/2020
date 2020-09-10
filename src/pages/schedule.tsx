@@ -116,11 +116,11 @@ const SchedulePage = () => {
         </Segment>
       </Segment>
       <Segment vertical>
-        <Header as="h3">
+        <Header as="h3" id="registration">
           <Icon name="info circle" />
           <Header.Content>参加申し込み方法</Header.Content>
         </Header>
-        <p>別途ご案内いたします。</p>
+        <a href={"https://spaceappsjapan.connpass.com/event/188313/"}>connpassよりお申し込みください。</a>
       </Segment>
     </Container>
   );
