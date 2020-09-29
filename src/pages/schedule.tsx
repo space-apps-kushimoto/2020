@@ -102,6 +102,7 @@ const SchedulePage = () => {
               </tr>
             </thead>
             <tbody>
+              <tr>
               <td>10:00 ~ 10:30</td>
               <td>缶サット発射@和歌山・パブリックビューイング（自由参加）</td>
               </tr>
