@@ -13,7 +13,6 @@ const SchedulePage = () => {
       </Segment>
       <Segment vertical>
         <Header as="h3">
-          <Icon name="info circle" />
           <Header.Content>場所</Header.Content>
         </Header>
         <p>オンライン</p>
@@ -24,14 +23,12 @@ const SchedulePage = () => {
       </Segment>
       <Segment vertical>
         <Header as="h3">
-          <Icon name="info circle" />
           <Header.Content>参加費用</Header.Content>
         </Header>
         <p>無料</p>
       </Segment>
       <Segment vertical>
         <Header as="h3">
-          <Icon name="info circle" />
           <Header.Content>タイムテーブル</Header.Content>
         </Header>
         <Segment vertical>
@@ -51,16 +48,37 @@ const SchedulePage = () => {
               <td>受付</td>
               </tr>
               <tr>
-              <td>10:00 - 11:00</td>
+              <td>10:00 - 10:30</td>
               <td>オリエンテーション</td>
               </tr>
               <tr>
-              <td>11:00 - 12:00</td>
-              <td>チームビルディング</td>
+              <td>10:30 - 11:00</td>
+              <td>ブレインストーミング（課題出し）</td>
               </tr>
               <tr>
-              <td>12:00 - 17:00</td>
-              <td>ハッカソン（ランチはグループごとに）</td>
+              <td>11:00 - 11:30</td>
+              <td>チーム分け</td>
+              </tr>
+              <tr>
+              <td>11:30 - 12:00</td>
+              <td>テーマ決め</td>
+              </tr>
+              <tr>
+              <tr>
+              <td>12:00 - 13:00</td>
+              <td>ランチ + 雑談</td>
+              </tr>
+              <tr>
+              <td>13:00 - 14:00</td>
+              <td>テーマ発表用のスライド作成</td>
+              </tr>
+              <tr>
+              <td>14:00 - 15:00</td>
+              <td>テーマ発表</td>
+              </tr>
+              <tr>
+              <td>15:00 - 17:00</td>
+              <td>ハッカソン</td>
               </tr>
               <tr>
               <td>17:00 - 18:00</td>
@@ -85,17 +103,16 @@ const SchedulePage = () => {
               </tr>
             </thead>
             <tbody>
-              <tr>
-              <td>9:30 -10:00</td>
-              <td>スタートミィーテング</td>
-              </tr>
-              <tr>
               <td>10:00 ~ 10:30</td>
-              <td>缶サット発射@和歌山・パブリックビューイング</td>
+              <td>缶サット発射@和歌山・パブリックビューイング（自由参加）</td>
               </tr>
               <tr>
-              <td>10:30 ~ 16:00</td>
-              <td>発表準備</td>
+              <td>13:00 ~ 13:30</td>
+              <td>オリエンテーション</td>
+              </tr>
+              <tr>
+              <td>13:30 ~ 16:00</td>
+              <td>オリエンテーション</td>
               </tr>
               <tr>
               <td>16:00 - 17:00</td>
@@ -117,7 +134,6 @@ const SchedulePage = () => {
       </Segment>
       <Segment vertical>
         <Header as="h3" id="registration">
-          <Icon name="info circle" />
           <Header.Content>参加申し込み方法</Header.Content>
         </Header>
         <a href={"https://spaceappsjapan.connpass.com/event/188313/"}>connpassよりお申し込みください。</a>
