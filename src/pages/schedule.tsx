@@ -64,7 +64,6 @@ const SchedulePage = () => {
               <td>テーマ決め</td>
               </tr>
               <tr>
-              <tr>
               <td>12:00 - 13:00</td>
               <td>ランチ + 雑談</td>
               </tr>
