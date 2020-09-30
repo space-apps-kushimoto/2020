@@ -20,7 +20,7 @@ const SchedulePage = () => {
           <p>大阪電気通信大学 情報通信工学部 情報工学科 教授</p>
           <p>古崎 晃司様</p>
           <p>宇宙ビジネスメディア「宙畑」編集長</p>
-          <p>中村友弥様</hp>
+          <p>中村友弥様</p>
         </div>
       </Segment>
       <Segment vertical>
