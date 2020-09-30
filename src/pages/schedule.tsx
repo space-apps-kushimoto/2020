@@ -14,18 +14,14 @@ const SchedulePage = () => {
       <Segment vertical>
         <Header as="h3">
           <Header.Content>審査員</Header.Content>
-          <p>50音順</p>
-          <div>
-            <h4>古崎 晃司様</h4>
-            <p>大阪電気通信大学 情報通信工学部 情報工学科 教授</p>
-            <h4>中村友弥様</h4>
-            <p>宇宙ビジネスメディア「宙畑」編集長</p>
-          </div>
         </Header>
-        <ul>
-          <li>Zoomを使い開催します。</li>
-          <li>ZoomURLは当日までにお伝え致します</li>
-        </ul>
+        <p>50音順</p>
+        <div>
+          <p>大阪電気通信大学 情報通信工学部 情報工学科 教授</p>
+          <p>古崎 晃司様</p>
+          <p>宇宙ビジネスメディア「宙畑」編集長</p>
+          <p>中村友弥様</hp>
+        </div>
       </Segment>
       <Segment vertical>
         <Header as="h3">
