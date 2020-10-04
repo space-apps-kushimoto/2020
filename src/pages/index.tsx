@@ -91,7 +91,7 @@ const IndexPage = (props: LayoutProps) => (
         <Grid.Row>
           <Grid.Column>
             <Header icon>
-              <Icon name="users"></Icon>ボランティア募集中(2020年度のボランテイァの募集は終了致しました)
+              <Icon name="users"></Icon>ボランティア募集中(2020年度のボランティアの募集は終了致しました)
             </Header>
             <p>Space Apps Challenge Kushimoto は、ボランティアによって運営されています。宇宙や IT に興味があって串本が大好きな人たちのボランティアを募集しています。</p>
             <p>ご連絡はこちらから</p>
