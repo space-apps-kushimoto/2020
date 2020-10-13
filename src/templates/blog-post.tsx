@@ -4,7 +4,6 @@ import { get } from "lodash";
 import { Header, Container, Segment, Icon, Label, Button, Grid, Card, Image, Item, Comment } from "semantic-ui-react";
 import { MarkdownRemark, ImageSharp, MarkdownRemarkConnection, Site } from "../graphql-types";
 import BlogTitle from "../components/BlogTitle";
-import { DiscussionEmbed } from "disqus-react";
 import {withLayout, LayoutProps} from "../components/Layout";
 import { graphql } from "gatsby";
 
@@ -24,7 +23,6 @@ const BlogPostPage = (props: BlogPostProps) => {
 
   const recents = props.data.recents.edges
     .map(({ node }) => {
-      const recentAvatar = node.frontmatter.author.avatar.children[0] as ImageSharp;
       const recentCover = get(node, "frontmatter.image.children.0.fixed", {});
       const extra = (
         <Comment.Group>
@@ -62,7 +60,7 @@ const BlogPostPage = (props: BlogPostProps) => {
         fluid
       />
       <Segment vertical
-        style={{ border: "none" }}
+        style={{ border: "none", maxWidth: 690, margin: "50px auto" }}
         dangerouslySetInnerHTML={{
           __html: html,
         }}

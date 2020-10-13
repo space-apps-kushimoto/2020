@@ -45,7 +45,42 @@
   background: rgba(255,255,255,0.6);
 }
 
+table {
+  word-break: break-word;
+}
+
 table.timetable td, table.timetable th{
   padding: 10px;
   border: 1px solid rgba(34,36,38,.5);
+}
+
+.table.table-award p {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin: 60px auto 40px;
+}
+.table.table-award {
+  margin: 20px auto;
+  width: 100%;
+  max-width: 690px;
+}
+.table.table-award th {
+  background: #adabab;
+  border: solid 1px #ccc;
+  color: #fff;
+  padding: 10px;
+  min-width: 100px;
+}
+.table.table-award td {
+  border: solid 1px #ccc;
+  padding: 10px;
+}
+ 
+@media screen and (max-width: 640px) {
+  .table.table-award th,
+  .table.table-award td {
+    display: block;
+    width: 100%;
+  }
 }
