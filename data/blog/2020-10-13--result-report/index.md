@@ -5,7 +5,7 @@ updatedDate: '2020-10-13'
 author: Naoki Ohashi
 tags:
   - お知らせ
-image: slider-bg.jpg
+image: thumnail.jpg
 draft: false
 ---
 

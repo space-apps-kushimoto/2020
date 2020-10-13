@@ -5,7 +5,7 @@ updatedDate: '2020-09-03'
 author: Naoki Ohashi
 tags:
   - お知らせ
-image: slider-bg.jpg
+image: thumnail.jpg
 draft: false
 ---
 ### NASA International Space Apps Challenge in Kushimoto 開催します。
